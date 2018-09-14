@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title><%= title%></title>
-    <link type="text/css" rel="stylesheet" href="/assets/style.css"/>
+    <title>
+        <%= title%>
+    </title>
+    <link type="text/css" rel="stylesheet" href="/assets/style.css" />
 </head>
+
 <body>
-    <div class ="header"><h1><%= title%></h1></div>
+    <div class="header">
+        <h1>
+            <%= title%>
+        </h1>
+    </div>
     <div>
         <div class="maincontent">
-            <div class ="buttons"><button>Left</button></div>
-            <div id="gallery"><img src="<%= myFirstEleven[5].URL%>" alt=""></div>
-            <div class ="buttons"><button>Right</button></div>
+            <div class="button left"><button><img src="/assets/arrow.svg" alt=""></button></div>
+            <img src="<%= myFirstEleven[0].URL%>" alt="" id="gallery">
+            <div class="text">
+                <div class="bold"><%= myFirstEleven[0].name%></div>
+                <div class="notbold"><%= myFirstEleven[0].description%></div>
+            </div>
+            <div class="button right"><button><img src="/assets/arrow.svg" alt=""></button></div>
         </div>
     </div>
 </body>
+
 </html>

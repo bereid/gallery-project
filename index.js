@@ -3,10 +3,10 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const PORT = 8080;
-const title = 'My first gallery'
+const title = 'My favourite footballers'
 
 const myFirstEleven = [
-{ URL: 'https://24.p3k.hu/app/uploads/2018/07/gianluigi-buffon-1-1024x576.jpg', name: '', description: ''},
+{ URL: 'https://24.p3k.hu/app/uploads/2018/07/gianluigi-buffon-1-1024x576.jpg', name: 'Gianlugi Buffon', description: 'Best keeper of the world.'},
 { URL: 'https://premierleague-static-files.s3.amazonaws.com/premierleague/photo/2018/05/29/969c8df4-7bd5-4883-a199-b02a2b9f2664/2017-12-26T185525Z_996469243_RC17BCDEDCB0_RTRMADP_3_SOCCER-ENGLAND-LIV-SWA.JPG', name: '', description: ''},
 { URL: 'https://the18.com/sites/default/files/styles/feature_image_with_focal/public/feature-images/20170717-the18-image-leonardo-bonucci.jpg', name: '', description: ''},
 { URL: 'https://givemesport.azureedge.net/images/18/01/14/1915caff9e8ed144ba4abd01496c40d6/960.jpg', name: '', description: ''},
