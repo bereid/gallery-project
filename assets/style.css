@@ -1,0 +1,22 @@
+body {
+    margin: auto auto;
+    padding: 0;
+    max-width: 800px;
+    width: 100%;
+    height: fit-content;
+    background: lightgoldenrodyellow;
+}
+
+.header {
+    text-align: center;
+}
+
+.maincontent {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#gallery {
+    flex: 1;
+}
