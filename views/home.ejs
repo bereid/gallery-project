@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>
-        <%= title%>
+        <%= title, position%>
     </title>
     <link type="text/css" rel="stylesheet" href="/assets/style.css" />
 </head>
@@ -12,16 +12,16 @@
 <body>
     <div class="header">
         <h1>
-            <%= title%>
+            <%= title%>: <%= position%>
         </h1>
     </div>
     <div>
         <div class="maincontent">
             <div class="button left"><button><img src="/assets/arrow.svg" alt=""></button></div>
-            <img src="<%= myFirstEleven[0].URL%>" alt="" id="gallery">
+            <img src="<%= URL%>" alt="" id="gallery">
             <div class="text">
-                <div class="bold"><%= myFirstEleven[0].name%></div>
-                <div class="notbold"><%= myFirstEleven[0].description%></div>
+                <div class="bold"><%= name%></div>
+                <div class="notbold"><%= description%></div>
             </div>
             <div class="button right"><button><img src="/assets/arrow.svg" alt=""></button></div>
         </div>

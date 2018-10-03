@@ -37,13 +37,13 @@ body {
 .bold {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 40px;
     color: whitesmoke;
 }
 
 .notbold {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 13px;
+    font-size: 20px;
     color: whitesmoke;
 }
 
